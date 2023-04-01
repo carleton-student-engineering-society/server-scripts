@@ -10,6 +10,6 @@ type=web
 date=$(date "+%F")
 backupfile="$type-$date"
 
-backupdir=/var/www/
+backupdir=var/www/
 
 create_backup $backupfile $backupdir
