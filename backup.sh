@@ -1,3 +1,3 @@
 #!/bin/bash
-cd /root/ServerScripts/backup
+cd /root/server-scripts/backup
 ./backup.sh
