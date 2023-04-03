@@ -2,7 +2,7 @@
 
 export TAR_ARGS="--acls --xattrs --zstd -cpf"
 export BACK_DEST="/opt/backup/"
-export TAR_EXT=".tar.zstd"
+export TAR_EXT=".tar.zst"
 
 create_full(){
 	archive_name="${BACK_DEST}${1}-$(hostname)-full${TAR_EXT}"
