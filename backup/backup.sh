@@ -7,7 +7,6 @@ source constants.sh
 
 echo -n "Backup Sites: " && ./backup_site.sh && echo "Done"
 echo -n "Backup DB: " && ./backup_db.sh && echo "Done"
-echo -n "Backup Logs: " && ./backup_logs.sh && echo "Done"
 
 chown -R root:backup $destdir
 chmod -R 750 $destdir
